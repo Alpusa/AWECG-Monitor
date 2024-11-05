@@ -1,7 +1,8 @@
 # AWECG-Monitor
-This is the arduino code to create the BLE server to capture the ECG signal and comunicate with the app AWECG.
 
-The sample rate is 250Hz and the resolution is 12 bits. The signal is amplified by an AD8232 and the microcontroller is an ESP32.
+This is the Arduino code to create the BLE server to capture the ECG signal and communicate with the app AWECG.
+
+The sample rate is 250Hz and the resolution is 12 bits. The signal is amplified by an AD8232, and the microcontroller is an ESP32.
 
 ## How to use
 1. Download the code and open it with the PlatformIO IDE.
@@ -11,7 +12,7 @@ The sample rate is 250Hz and the resolution is 12 bits. The signal is amplified 
 5. Enjoy!
 
 ## How to connect the AD8232
-The AD8232 get the ECG signal to get I derivation. It's necessary to connect the AD8232 to the ESP32 with the following pins:
+The AD8232 gets the ECG signal to get I derivation. It's necessary to connect the AD8232 to the ESP32 with the following pins:
 
 | AD8232 | ESP32 |
 |--------|-------|
@@ -23,4 +24,17 @@ The AD8232 get the ECG signal to get I derivation. It's necessary to connect the
 | SDN    | IO 14 |
 
 ## How to connect the Wake-up button
-The wake-up button is used to wake-up the ESP32 from deep sleep mode. The Button is connected to the ESP32 using a pull-down resistor. The ESP32 is waked-up when the button is pressed. The button is connected to the ESP32 with the IO 12.
+The wake-up button is used to wake up the ESP32 from deep sleep mode. The Button is connected to the ESP32 using a pull-down resistor. The ESP32 is woken up when the button is pressed. The button is connected to the ESP32 with the IO 12.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact Information
+
+- **Alejandro Pulido Saravia**: [https://www.linkedin.com/in/pulidosaravia/](https://www.linkedin.com/in/pulidosaravia/)
+- **Email**: [pulidosaravia@gmail.com](pulidosaravia@gmail.com)
+
+Electronic Engineering  
+Bucaramanga, Colombia  
+2023
