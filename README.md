@@ -33,7 +33,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact Information
 
 - **Alejandro Pulido Saravia**: [https://www.linkedin.com/in/pulidosaravia/](https://www.linkedin.com/in/pulidosaravia/)
-- **Email**: [pulidosaravia@gmail.com](pulidosaravia@gmail.com)
+- **Email**: [pulidosaravia@gmail.com](mailto:pulidosaravia@gmail.com)
 
 Electronic Engineering  
 Bucaramanga, Colombia  
